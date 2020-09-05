@@ -8,7 +8,7 @@ window.onload=function(){
 function isSigInDash(){
     firebase.auth().onAuthStateChanged(res => {
       if(res==null){
-          document.getElementById('detailsUser').innerHTML="Usted no ha ingresado";
+          document.getElementById('detailsUser').innerHTML="MODO DEMOSTRACIÓN";
           document.getElementById('detalsImgOff').style.display="none";
           document.getElementById('detalsImgOn').style.display="block";
           document.getElementById('buttonIn').style.display="none";
