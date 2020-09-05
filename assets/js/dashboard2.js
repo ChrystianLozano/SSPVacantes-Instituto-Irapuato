@@ -131,7 +131,7 @@ function closeDaView(){
 }
 function openModalView(id){
     backImg = Math.floor(Math.random() * (9 - 1)) + 1;
-    document.getElementById('layerID').style.backgroundImage="url(../assets/img/0" + backImg + ".png)";
+    document.getElementById('layerID').style.backgroundImage="url(./assets/img/0" + backImg + ".png)";
     clean();
     document.getElementById("btnDownload").style.display="inline-block";
     document.getElementById("btnCloseView").style.display="inline-block";
